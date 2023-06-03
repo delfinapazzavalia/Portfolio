@@ -1,38 +1,71 @@
 .home {
-    background-color: rgba(180, 149, 107, 0.7);
-    display: flex;
-    justify-content: center;
+  background-color: rgba(180, 149, 107, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.home-left {
+  text-align: left;
+  flex: 1;
+}
+
+.home-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-right img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.my-button {
+  background-color: rgb(104, 84, 58);
+  color: white;
+  border-radius: 10px;
+  border-style: hidden;
+  
+  transition: background-color 0.3s ease;
+  width: %;
+  padding: 10px;
+  font-size: 1em;
+}
+.my-button:hover {
+  background-color: rgb(61, 49, 34);
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
     align-items: center;
-    padding: 150px 50px;
-    color: white;
   }
-  
+
   .home-left {
-    justify-content: flex-end;
-    text-align:justify;
-    flex: 1;
-  }
-  
-  .home-left h1 {
-    font-size: 40px;
-    font-weight: bold;
+    padding: px;
     margin-bottom: 10px;
+    text-align: center;
   }
-  
-  .home-left p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
   .home-right {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
+    margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
   }
-  
-  .home-right img {
-    max-width: 50%;
-    max-height: 50%;
-    
-  }
-  
+}
