@@ -1,11 +1,11 @@
 .home {
-  background-color: rgba(180, 149, 107, 0.7);
+  background-color: #22252C;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 150px 50px;
   padding-bottom: 50px;
-  color: white;
+  color: #F6FCFA;
 }
 
 .home-left {
@@ -36,18 +36,18 @@
 }
 
 .my-button {
-  background-color: rgb(104, 84, 58);
-  color: white;
+  background-color: #05C7AD;
+  color: #F6FCFA;
   border-radius: 10px;
   border-style: hidden;
   
   transition: background-color 0.3s ease;
-  width: %;
+
   padding: 10px;
   font-size: 1em;
 }
 .my-button:hover {
-  background-color: rgb(61, 49, 34);
+  background-color: #027D6D;
 }
 
 @media (max-width: 900px) {
