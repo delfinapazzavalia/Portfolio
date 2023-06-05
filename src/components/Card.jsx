@@ -12,7 +12,7 @@ const Card = () => {
           <p className="card-description">Rolling Code School</p>
           <p className="card-info">2022-2023</p>
           <a className="card-link" target="_blank" rel="noopener noreferrer" href="https://certs.rollingcodeschool.com//ZGVsZmlwYXp6YXZhbGlhQGhvdG1haWwuY29t-1679573151976-1.png">
-            Ver certificado
+          View certificate
           </a>
         </div>
       </div>
