@@ -68,6 +68,7 @@
     padding: px;
     margin-bottom: 10px;
     text-align: center;
+    order: 2;
   }
   .home-right {
     margin-top: 10px;
@@ -75,5 +76,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    order: 1;
   }
 }
