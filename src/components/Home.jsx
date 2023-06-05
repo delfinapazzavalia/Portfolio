@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-left">
-        <h1>Delfina Paz Zavalia</h1>
+        <h2>WELCOME!</h2>
+        <h1>I'm Delfina Paz Zavalia</h1>
         <span>_________</span>
         <p>FullStack Web Developer</p>
         <button class="my-button">CONTACT ME</button>
