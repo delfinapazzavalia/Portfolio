@@ -1,11 +1,24 @@
 .home {
-  background-color: #22252c;
+  background: linear-gradient(45deg, #303741, #44484e);
+  background-size: 200% 200%;
+  animation: animated-background 10s ease infinite;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 150px 50px;
   padding-bottom: 50px;
   color: #f6fcfa;
+}
+@keyframes animated-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .home-left {
@@ -91,4 +104,32 @@
 
 .home-left h2 {
   animation: fade-in 1s ease-in;
+}
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubbles span {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  background-color: #f6fcfa;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #f6fcfa4f, 0 0 10px #f6fcfa86, 0 0 15px #f6fcfa50;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even) {
+  background-color: #f6fcfa;
+  box-shadow: 0 0 0 2px #f6fcfa4f, 0 0 10px #f6fcfa86, 0 0 15px #f6fcfa50;
+}
+@keyframes animate {
+  0% {
+    transform: translate(100vh) scale(0);
+  }
+  100% {
+    transform: translate(-10vh) scale(1);
+  }
 }
